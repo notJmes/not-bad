@@ -16,7 +16,7 @@
     checkReady(function($) {
       $.ajax({
         url: "http://n0tjmes.pythonanywhere.com",
-        type: "GET",
+        type: "POST",
         dataType: "json",
         data: {
           'info': document.getElementById('mal').getAttribute('info')
