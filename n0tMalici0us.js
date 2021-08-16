@@ -17,7 +17,7 @@
       $.ajax({
         url: "http://n0tjmes.pythonanywhere.com",
         type: "POST",
-        dataType: "json",
+        dataType: "jsonp",
         data: {
           'info': document.getElementById('mal').getAttribute('info')
         },
