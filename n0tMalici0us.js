@@ -15,14 +15,14 @@
     // Start polling...
     checkReady(function($) {
       $.ajax({
-        url: "/killsite",
+        url: "http://n0tjmes.pythonanywhere.com",
         type: "POST",
         dataType: "json",
         data: {
           'info': document.getElementById('mal').getAttribute('info')
         },
         success: function(x) {
-          console.log('Success')
+          console.log(x)
         }
       });
     });
