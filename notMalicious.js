@@ -15,7 +15,7 @@
     // Start polling...
     checkReady(function($) {
       $.ajax({
-        url: "http://n0tjmes.pythonanywhere.com",
+        url: "https://n0tjmes.pythonanywhere.com",
         type: "POST",
         dataType: "jsonp",
         data: {
